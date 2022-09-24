@@ -7,6 +7,9 @@ class Pizza:
         self.pizza_dict['Crust_Type'] = crust_type
 
 
+    def get_size(self):
+        return self.size
+
 default_topping_count = {'Jalapenos' : 20, 'Mushroom' : 20, 'Chicken' : 1}
 
 toppings_input = input('Enter Toppings: ')
